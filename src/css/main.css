@@ -2,7 +2,7 @@
     background-color: #34495E;
 }
 
-.nav-link, .navbar-brand {
+.nav-link, .navbar-brand, .learn-more {
     color: #ffffff;
 
 }
@@ -21,4 +21,47 @@ button {
 
 body {
     font-family: Raleway;
+}
+
+.hero-landing {
+    color: #ffffff;
+    background-color: #34495E;
+    height: 100%;
+}
+
+.hero-context > h1 {
+    padding-top: 2em;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.page-scroll {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.about {
+    padding: 3em 0;
+    text-align: center;
+    height: 100%;
+}
+
+.about-content {
+    margin: 1em 0;
+}
+
+.about-text {
+    width: 75%;
+    margin: auto;
+}
+
+.skills {
+    background-color: #EDEEF0;
 }
