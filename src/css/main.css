@@ -53,7 +53,7 @@ body {
     height: 100%;
 }
 
-.about-content {
+.about-content, .skills-content {
     margin: 1em 0;
 }
 
@@ -63,14 +63,17 @@ body {
     padding-top: 0.5em;
 }
 
-.about-section {
+.about-section, .skills-section {
     margin: 1em 0;
 }
 
 .skills {
     background-color: #EDEEF0;
+    height: 100%;
+    width: 100%;
 }
 
 .about-icon {
     width: 75%;
+    padding-top: 1em;
 }
