@@ -3,7 +3,7 @@
 }
 
 .nav-link, .navbar-brand, .learn-more {
-    color: #ffffff;
+    color: #ffffff!important;
 
 }
 
@@ -14,10 +14,10 @@
 .navbar-brand {
     margin-left: 1em;
 }
-button {
-    color: #ffffff;
-}
 
+.navbar-toggler {
+    border-color: transparent!important;
+}
 
 body {
     font-family: Raleway;
@@ -33,6 +33,7 @@ body {
     padding-top: 2em;
     font-weight: 700;
     font-size: 36px;
+    margin-top: 1em;
 }
 
 .page-scroll {
