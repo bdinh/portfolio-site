@@ -60,8 +60,17 @@ body {
 .about-text {
     width: 75%;
     margin: auto;
+    padding-top: 0.5em;
+}
+
+.about-section {
+    margin: 1em 0;
 }
 
 .skills {
     background-color: #EDEEF0;
+}
+
+.about-icon {
+    width: 75%;
 }
