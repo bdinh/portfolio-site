@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 .navbar {
     background-color: #34495E;
     padding: 1rem 1rem!important;
+    margin-bottom: 0;
 }
 
 .nav-link, .navbar-brand, .learn-more {
@@ -138,28 +142,46 @@ a:link, a:hover, a:active {
 .project-landing {
     height: 100%;
     width: 100%;
+    text-align: center;
+    background-color: #EDEEF0;
+    padding-top: 1em;
 }
 
 .project-item {
 
 }
 
-.filter {
+.filter-button {
     height: 100%;
-    width: 100px;
     display: inline-block;
-    margin: 1em;
+    /*padding: 1em;*/
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.filter-button:hover, .filter-button:active {
+    border: 2px #c0dfd9 solid;
 }
 
 .filter-options {
-    margin: 2em;
+    margin: 4em 2em 1em 2em;
     text-align: center;
     font-size: 24px;
 }
 
-.gallery-item {
-    /*height: 300px;*/
-    /*width: 100px;*/
+.gallery-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item-container {
+    padding: 0.5em;
+}
+
+.gallery {
+    text-align: center;
+    padding: 0 0.5em;
 }
 
 @media (min-width: 598px) {
