@@ -144,6 +144,24 @@ a:link, a:hover, a:active {
 
 }
 
+.filter {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    margin: 1em;
+}
+
+.filter-options {
+    margin: 2em;
+    text-align: center;
+    font-size: 24px;
+}
+
+.gallery-item {
+    /*height: 300px;*/
+    /*width: 100px;*/
+}
+
 @media (min-width: 598px) {
     .about-icon {
         width: 75%;
