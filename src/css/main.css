@@ -5,9 +5,7 @@
 
 .nav-link, .navbar-brand, .learn-more {
     color: #ffffff!important;
-
 }
-
 .nav-link {
     margin-right: 1em;
 }
@@ -60,7 +58,6 @@ body {
     /*margin: 1em 0;*/
 /*}*/
 
-
 .about-section, .skills-section {
     margin: 2em 0;
 }
@@ -71,10 +68,8 @@ body {
 }
 
 .about-icon {
-    /*display: none;*/
     margin: 0.5em;
 }
-
 
 .full-bar {
     height: 1em;
@@ -96,6 +91,7 @@ h3 {
 a:link, a:hover, a:active {
     text-decoration: none;
     color: #c0dfd9!important;
+    /*color: #729f98!important;*/
 }
 
 /*.technical-skills {*/
@@ -136,6 +132,16 @@ a:link, a:hover, a:active {
     width: 2em;
     border-radius: 50%;
     margin: 1em;
+}
+
+
+.project-landing {
+    height: 100%;
+    width: 100%;
+}
+
+.project-item {
+
 }
 
 @media (min-width: 598px) {
