@@ -47,7 +47,7 @@ body {
     margin: auto;
 }
 
-.about, .skills {
+.about, .skills, footer {
     padding: 3em 0;
     text-align: center;
     height: 100%;
@@ -118,4 +118,20 @@ h3 {
     padding: 1em;
 }
 
+.contact {
+    font-size: 1.5em;
+}
+.social-link a {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #34495E;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin: 1em;
+}
 
