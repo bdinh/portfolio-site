@@ -45,6 +45,7 @@ body {
     border-radius: 50%;
     width: 60%;
     margin: auto;
+    margin-bottom: 2em;
 }
 
 .about, .skills, footer {
@@ -53,9 +54,9 @@ body {
     height: 100%;
 }
 
-.about-content, .skills-content {
-    margin: 1em 0;
-}
+/*.about-content, .skills-content {*/
+    /*margin: 1em 0;*/
+/*}*/
 
 
 .about-section, .skills-section {
@@ -68,16 +69,14 @@ body {
 }
 
 .about-icon {
-    display: none;
+    /*display: none;*/
+    margin: 0.5em;
 }
 
-.test {
-    background-color: yellow;
-}
 
 .full-bar {
     height: 1em;
-    width: 70%;
+    width: 100%;
     background-color: #99A4AE;
     margin-top: 0.25em;
     margin-bottom: 1.5em;
@@ -92,23 +91,24 @@ h3 {
     text-align: left;
 }
 
-.technical-skills {
-    margin-left: 2em;
-}
+/*.technical-skills {*/
+    /*margin-left: 2em;*/
+/*}*/
 
-.second-skills {
-    margin-top: 5em;
-}
 
-.second-course {
-    margin-top: 6em;
-}
+/*.second-skills {*/
+    /*margin-top: 5em;*/
+/*}*/
+
+/*.second-course {*/
+    /*margin-top: 6em;*/
+/*}*/
 
 .course {
     margin-top: 0.25em;
     margin-bottom: 1.5em;
     border: solid #34495E 3px;
-    height: 4em;
+    height: 4.5em;
     padding: 1em;
 }
 
@@ -116,15 +116,17 @@ h3 {
     font-size: 1.5em;
 }
 .social-link a {
-    font-size: 2em;
+    font-size: 1em;
     color: #ffffff;
+    margin-top: 0.25em;
+    display: inline-block;
 }
 
 .social-link {
     display: inline-block;
     background-color: #34495E;
-    height: 3em;
-    width: 3em;
+    height: 2em;
+    width: 2em;
     border-radius: 50%;
     margin: 1em;
 }
@@ -142,13 +144,13 @@ h3 {
 
     .social-link a {
         font-size: 1.5em;
+        margin-top: 0.1em;
     }
 
     .social-link {
         height: 2.5em;
         width: 2.5em;
     }
-    
 }
 
 @media (min-width: 768px) {
@@ -160,9 +162,23 @@ h3 {
         margin-top: 5em;
     }
 
+    .profile-pic {
+        width: 90%;
+    }
 
-    
-    
+    .second-course {
+        margin-top: 5em;
+    }
+
+    .course {
+        height: 4.5em;
+    }
+
+    .full-bar {
+        width: 100%;
+    }
+
+
 }
 
 
@@ -172,10 +188,19 @@ h3 {
         margin: auto;
         padding-top: 0.5em;
     }
-    
-    
+
+    .course {
+        height: 4em;
+    }
+
 }
 
 @media (min-width: 1200px) {
-    
+    .hero-context > h1 {
+        font-size: 60px;
+    }
+
+    .hero-context > p {
+        font-size: 24px;
+    }
 }
