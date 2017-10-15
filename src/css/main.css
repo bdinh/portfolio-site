@@ -102,6 +102,20 @@ h3 {
     margin-left: 2em;
 }
 
-.technologies {
+.second-skills {
     margin-top: 5em;
 }
+
+.second-course {
+    margin-top: 6em;
+}
+
+.course {
+    margin-top: 0.25em;
+    margin-bottom: 1.5em;
+    border: solid #34495E 3px;
+    height: 4em;
+    padding: 1em;
+}
+
+
