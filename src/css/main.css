@@ -26,6 +26,10 @@ body {
     font-family: Raleway;
 }
 
+.hero-context {
+    margin-left: 1em;
+}
+
 .hero-landing {
     color: #ffffff;
     background-color: #34495E;
@@ -58,9 +62,6 @@ body {
     height: 100%;
 }
 
-/*.about-content, .skills-content {*/
-    /*margin: 1em 0;*/
-/*}*/
 
 .about-section, .skills-section {
     margin: 2em 0;
@@ -95,21 +96,7 @@ h3 {
 a:link, a:hover, a:active {
     text-decoration: none;
     color: #c0dfd9!important;
-    /*color: #729f98!important;*/
 }
-
-/*.technical-skills {*/
-    /*margin-left: 2em;*/
-/*}*/
-
-
-/*.second-skills {*/
-    /*margin-top: 5em;*/
-/*}*/
-
-/*.second-course {*/
-    /*margin-top: 6em;*/
-/*}*/
 
 .course {
     margin-top: 0.25em;
@@ -122,6 +109,7 @@ a:link, a:hover, a:active {
 .contact {
     font-size: 1.5em;
 }
+
 .social-link a {
     font-size: 1em;
     color: #ffffff;
@@ -138,9 +126,6 @@ a:link, a:hover, a:active {
     margin: 1em;
 }
 
-/* Project */
-
-
 .project-landing {
     height: 100%;
     width: 100%;
@@ -149,16 +134,11 @@ a:link, a:hover, a:active {
     padding-top: 1em;
 }
 
-.project-item {
-
-}
-
 .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    /*background-color: rgba(192,223,217,0.7);*/
     background-color: rgba(52,73,94,0.7);
     overflow: hidden;
     width: 100%;
@@ -181,12 +161,9 @@ a:link, a:hover, a:active {
     -ms-transform: translate(-50%, -50%);
 }
 
-/* Project */
-
 .filter-button {
     height: 100%;
     display: inline-block;
-    /*padding: 1em;*/
     background-color: transparent;
     font-size: 1em;
     border: 2px transparent solid;
@@ -200,10 +177,6 @@ a:link, a:hover, a:active {
     margin: 4em 2em 1em 2em;
     text-align: center;
     font-size: 24px;
-}
-
-.active {
-
 }
 
 .project-image {
@@ -284,8 +257,6 @@ a:link, a:hover, a:active {
     .full-bar {
         width: 100%;
     }
-
-
 }
 
 
@@ -299,7 +270,6 @@ a:link, a:hover, a:active {
     .course {
         height: 4em;
     }
-
 }
 
 @media (min-width: 1200px) {
