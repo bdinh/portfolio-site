@@ -11,11 +11,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/83cdf34685.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-
     <link rel="icon" href="src/images/bao-favicon.png">
     <link rel="stylesheet" href="src/css/main.css">
+    <script src="src/js/main.js" type="text/javascript"></script>
 
 
 </head>
@@ -40,68 +38,74 @@
         <div class="container project-landing">
 
             <div class="filter-options">
-                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
                 <button class="btn btn-default filter-button" data-filter="portrait">Portrait</button>
                 <button class="btn btn-default filter-button" data-filter="street">Street</button>
                 <button class="btn btn-default filter-button" data-filter="landscape">Landscape</button>
             </div>
 
-
-
             <div class="row flex gallery">
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container landscape">
                     <a class="gallery-item" href="src/images/seattle-pier.jpg">
                         <img class="gallery-image" src="src/images/seattle-pier.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/seagull-table.jpg">
                         <img class="gallery-image" src="src/images/seagull-table.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/bench-shot.jpg">
                         <img class="gallery-image" src="src/images/bench-shot.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
                     <a class="gallery-item" href="src/images/spiderman.jpg">
                         <img class="gallery-image" src="src/images/spiderman.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/whole-foods.jpg">
                         <img class="gallery-image" src="src/images/whole-foods.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/piano-performer.jpg">
                         <img class="gallery-image" src="src/images/piano-performer.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
                     <a class="gallery-item" href="src/images/sam-cutting-fruits.jpg">
                         <img class="gallery-image" src="src/images/sam-cutting-fruits.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/planned-parenthood.jpg">
                         <img class="gallery-image" src="src/images/planned-parenthood.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/grand-finale.jpg">
                         <img class="gallery-image" src="src/images/grand-finale.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
                     <a class="gallery-item" href="src/images/iphone-seattle.jpg">
                         <img class="gallery-image" src="src/images/iphone-seattle.jpg" alt>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
-                    <img src="" alt>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <a class="gallery-item" href="src/images/wynston.jpg">
+                        <img class="gallery-image" src="src/images/wynston.jpg" alt>
+                    </a>
                 </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <a class="gallery-item" href="src/images/daniel-vicki-fountain.jpg">
+                        <img class="gallery-image" src="src/images/daniel-vicki-fountain.jpg" alt>
+                    </a>
+                </div>
+
             </div>
         </div>
 
@@ -134,8 +138,6 @@
             </div>
         </div>
     </footer>
-
-
 
 </body>
 </html>

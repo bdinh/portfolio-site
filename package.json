@@ -11,11 +11,9 @@
   },
   "author": "Bao Dinh",
   "license": "ISC",
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "dependencies": {
-
+    "jquery": "^3.2.1",
   },
   "bugs": {
     "url": "https://github.com/info343b-a17/promo-bdinh/issues"

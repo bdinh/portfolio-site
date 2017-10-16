@@ -53,7 +53,7 @@ body {
 }
 
 .about, .skills, footer {
-    padding: 3em 0;
+    padding: 2em 0;
     text-align: center;
     height: 100%;
 }
@@ -138,6 +138,8 @@ a:link, a:hover, a:active {
     margin: 1em;
 }
 
+/* Project */
+
 
 .project-landing {
     height: 100%;
@@ -151,12 +153,15 @@ a:link, a:hover, a:active {
 
 }
 
+/* Project */
+
 .filter-button {
     height: 100%;
     display: inline-block;
     /*padding: 1em;*/
     background-color: transparent;
     font-size: 1em;
+    border: 2px transparent solid;
 }
 
 .filter-button:hover, .filter-button:active {
@@ -167,6 +172,11 @@ a:link, a:hover, a:active {
     margin: 4em 2em 1em 2em;
     text-align: center;
     font-size: 24px;
+}
+
+.active {
+
+
 }
 
 .gallery-image {
@@ -189,41 +199,15 @@ a:link, a:hover, a:active {
 .gallery {
     text-align: center;
     padding: 0 0.5em;
+    margin: 2em 0;
 }
 
-.gallery-item a::before {
-    background: #000 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    transform: scale(0.5);
-    transition: all 0.3s ease 0s;
-    width: 100%;
-}
 
-.gallery-item:hover a::before {
-    opacity: .5;
-    transform: scale(1);
-}
 
-.gallery-item a::after {
-    color: #fff;
-    content: "+";
-    font-size: 60px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 50%;
-    transform: scale(0);
-    transition: all 0.3s ease 0s;
-}
 
-.gallery-item:hover a::after {
-    transform: scale(1);
-}
+
+
+
 
 @media (min-width: 598px) {
     .about-icon {
