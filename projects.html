@@ -35,25 +35,47 @@
     </header>
     <main>
         <div class="container project-landing">
-            <div class="row">
-                <div class="filter">All</div>
-                <div class="filter">JavaScript</div>
-                <div class="filter">Python</div>
-                <div class="filter">Java</div>
-                <div class="filter">Swift</div>
+
+            <div class="filter-options">
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="javascript">JavaScript</button>
+                <button class="btn btn-default filter-button" data-filter="python">Python</button>
+                <button class="btn btn-default filter-button" data-filter="java">Java</button>
+                <button class="btn btn-default filter-button" data-filter="swift">Swift</button>
             </div>
 
-            <div class="row gallery">
-                <div class="col-12 col-md-6 project-item">
-                    IHME UI Components
+            <div class="row flex gallery">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container javascript">
+                    <img class="project-image" src="src/images/fgh-imhe.png">
+                    <a class="project-item" href="https://github.com/ihmeuw/ihme-ui">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                IHME-UI React Components
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 project-item">
-                    Rubiks Cube Reinforcement Learning
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container python">
+                    <img class="project-image" src="src/images/rubiks-cube.png">
+                    <a class="project-item" href="https://github.com/bdinh/cse415-group-project">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                Rubiks Cube Reinforcement Learning
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 project-item">
-                    Fitness Diary iOS Mobile Application
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container swift">
+                    <img class="project-image" src="src/images/fitness-on-the-fly.png">
+                    <a class="project-item" href="https://github.com/bdinh/cse415-group-project">
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                Fitness Diary iOS Mobile Application
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-12 col-md-6 project-item">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container">
                     Add more project examples
                 </div>
 
