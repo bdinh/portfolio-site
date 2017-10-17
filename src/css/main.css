@@ -92,7 +92,7 @@ h3 {
     text-align: left;
 }
 
-a:link, a:hover, a:active {
+a:hover, a:active {
     text-decoration: none;
     color: #c0dfd9!important;
 }
@@ -239,6 +239,8 @@ a:link, a:hover, a:active {
     font-size: 4em;
     font-weight: normal;
 }
+
+
 
 @media (min-width: 598px) {
     .about-icon {
