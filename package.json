@@ -1,0 +1,22 @@
+{
+  "name": "promo-site",
+  "version": "1.0.0",
+  "description": "Promotional site for INFO 343 assignment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/info343b-a17/promo-bdinh.git"
+  },
+  "author": "Bao Dinh",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "^3.2.1",
+  },
+  "bugs": {
+    "url": "https://github.com/info343b-a17/promo-bdinh/issues"
+  },
+  "homepage": "https://github.com/info343b-a17/promo-bdinh#readme"
+}

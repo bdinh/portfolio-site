@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bao Dinh">
+    <meta name="description" content="Promotional site">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/83cdf34685.js"></script>
+    <link rel="icon" href="src/images/bao-favicon.png">
+    <link rel="stylesheet" href="src/css/main.css">
+    <script src="src/js/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-sm navbar-inverse fixed-top">
+            <a class="navbar-brand" href="index.html">@baohdinh</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Photography <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container project-landing">
+            <div class="filter-options">
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="portrait">Portrait</button>
+                <button class="btn btn-default filter-button" data-filter="street">Street</button>
+                <button class="btn btn-default filter-button" data-filter="landscape">Landscape</button>
+            </div>
+
+            <div class="row flex gallery">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container landscape">
+                    <img class="gallery-image" src="src/images/seattle-pier.jpg" alt="Buildings in Seattle from the pier">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/seagull-table.jpg" alt="Seagull on a table">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/bench-shot.jpg" alt="Men sitting on a bench">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <img class="gallery-image" src="src/images/spiderman.jpg" alt="Man dressed up as Spiderman">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/whole-foods.jpg" alt="Whole Food's food truck for Pride Parade">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/piano-performer.jpg" alt="Man playing the piano">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <img class="gallery-image" src="src/images/sam-cutting-fruits.jpg" alt="Man cutting a fruit">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/planned-parenthood.jpg" alt="People marching in Pride Parade">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/grand-finale.jpg" alt="Man playing grand finale of song on piano">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container street">
+                    <img class="gallery-image" src="src/images/iphone-seattle.jpg" alt="A hand holding a phone that takings a picture of downtown Seattle">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <img class="gallery-image" src="src/images/wynston.jpg" alt="College student in front of UW cherry blossom">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 item-container portrait">
+                    <img class="gallery-image" src="src/images/daniel-vicki-fountain.jpg" alt="College students in cap and gown sitting near a fountain">
+                </div>
+
+                <div class="modal" id="myModal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="insertImage">
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contact">
+                <div class="social-link">
+                    <a href="https://www.facebook.com/baodinh96">
+                        <i class="fa fa-facebook" aria-label="Facebook Logo"></i>
+                    </a>
+                </div>
+                <div class="social-link">
+                    <a href="https://www.instagram.com/baohdinh/">
+                        <i class="fa fa-instagram" aria-label="Instagram Logo"></i>
+                    </a>
+                </div>
+                <div class="social-link">
+                    <a href="https://github.com/bdinh">
+                        <i class="fa fa-github-alt" aria-label="GitHub Logo"></i>
+                    </a>
+                </div>
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/bao-dinh-2a22b314a/">
+                        <i class="fa fa-linkedin" aria-label="LinkedIn Logo"></i>
+                    </a>
+                </div>
+                <p >Copyright &copy; 2017 Bao Dinh</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
