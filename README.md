@@ -9,3 +9,5 @@ to implement my ideas. Within the repository, you can view my journaling of the 
 as my initial designs for the portfolio. 
 
 The site can be viewed at <https://info343b-a17.github.io/promo-bdinh/>
+
+made some changes!!
